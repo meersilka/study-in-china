@@ -1,0 +1,11 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# редакторы
+.vscode/
+*.code-workspace
+
+# служебное
+*.zip
