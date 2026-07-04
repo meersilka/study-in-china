@@ -19,6 +19,8 @@
   --line:#E7E2D8;        /* разделители/бордеры */
   --line-strong:#D9D2C4;
   --on-accent:#FFFFFF;
+  --brand-band:#16324F;   /* тёмно-синий баннер — НЕ меняется в тёмной теме, чтобы белый текст читался */
+  --jade-band:#2F6F63;    /* акцент баннера — тоже фиксированный */
 
   --radius:18px;
   --radius-sm:12px;
@@ -205,7 +207,7 @@ html[data-theme="dark"] .theme-toggle .i-moon{display:block}
 .service{position:relative}
 .service__no{font-family:var(--font-head);font-weight:800;font-size:.95rem;color:var(--accent);letter-spacing:.05em}
 .service h3{margin-top:8px}
-.service--cta{background:linear-gradient(135deg,var(--brand),color-mix(in srgb,var(--brand) 70%, var(--jade)));color:#fff;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.service--cta{background:linear-gradient(135deg,var(--brand-band),color-mix(in srgb,var(--brand-band) 70%, var(--jade-band)));color:#fff;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
 .service--cta h3{color:#fff}
 .service--cta p{color:rgba(255,255,255,.85);margin-bottom:16px}
 .service--cta .btn-outline{border-color:rgba(255,255,255,.6);color:#fff}
@@ -311,7 +313,7 @@ html[data-theme="dark"] .theme-toggle .i-moon{display:block}
 .faq__a p{margin:0}
 
 /* ---------- Финальный CTA ---------- */
-.cta-final{padding:clamp(56px,8vw,100px) 0;background:linear-gradient(135deg,var(--brand),color-mix(in srgb,var(--brand) 62%, var(--jade)));color:#fff}
+.cta-final{padding:clamp(56px,8vw,100px) 0;background:linear-gradient(135deg,var(--brand-band),color-mix(in srgb,var(--brand-band) 62%, var(--jade-band)));color:#fff}
 .cta-final__inner{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
 .cta-final h2{color:#fff}
 .cta-final__copy p{color:rgba(255,255,255,.85);font-size:1.1rem}
